@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	char c;
+	int upper,lower;
+	
+	cout<<"enter alphabet: ";
+	cin >>c;
+	
+	upper=(c=='A'||c=='E'||c=='I'||c=='O'||c=='U' );
+	lower=(c=='a'||c=='e'||c=='i'||c=='o'||c=='u' );  
+  
+  	if(lower || upper){
+  		cout<<"vowel" <<endl;
+	  }
+	  else{
+	  	cout<<"consonant" <<endl;
+	  }
+  
+  return 0; 
+}
