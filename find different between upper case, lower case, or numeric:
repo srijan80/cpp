@@ -1,0 +1,22 @@
+#include
+using namespace std;
+
+int main() {
+
+char a;
+int upper,lower;
+
+cout<<"enter a character" <<endl;
+cin>>a;
+
+if(a>='A' && a<='Z'){
+	cout<<"the entered value is upper case" <<endl;
+}
+else if(a>='a' && a<='z'){
+	cout<<"the entered value is lower case" <<endl;
+}
+else{
+	cout<<"the entered value is numeric " <<endl;
+}
+return 0;
+}
